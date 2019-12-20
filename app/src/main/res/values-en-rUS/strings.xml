@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App</string>
+    <string name="Primos">Prime Numbers</string>
+    <string name="Capitales">Capitals</string>
+    <string name="Springfield">Springfield</string>
+    <string name="Personajes">Characters</string>
+    <string name="TituloPrimos">Prime Numbers</string>
+    <string name="CabeceraPrimos">¿IS IT A PRIME NUMBER?</string>
+    <string name="BotonComprobar">CHECK</string>
+    <string name="BotonVolver">BACK</string>
+    <string name="imagen">Imagen</string>
+    <string name="IntroduceNumero">NUMBER</string>
+    <string name="bart">BART</string>
+    <string name="homer">HOMER</string>
+    <string name="lisa">LISA</string>
+    <string name="marge">MARGE</string>
+    <string name="pais">COUNTRY</string>
+    <string name="capital">CAPITAL</string>
+    <string name="comprobar">CALCULATE</string>
+
+    //----PAÍSES--------
+    <string name="ESPANA">SPAIN</string>
+    <string name="PORTUGAL">PORTUGAL</string>
+    <string name="FRANCIA">FRANCE</string>
+    <string name="REINOUNIDO">UNITED KINGDOM</string>
+    <string name="PAISESBAJOS">NETHERLANDS</string>
+    <string name="NORUEGA">NORWAY</string>
+    <string name="ITALIA">ITALY</string>
+    <string name="ALEMANIA">GERMANY</string>
+    <string name="GRECIA">GREECE</string>
+    <string name="AUSTRIA">AUSTRIA</string>
+    <string name="SUIZA">SWITZERLAND</string>
+    <string name="IRLANDA">IRELAND</string>
+    //----CAPITALES--------
+    <string name="MADRID">MADRID</string>
+    <string name="LISBOA">LISBON</string>
+    <string name="PARIS">PARIS</string>
+    <string name="LONDRES">LONDON</string>
+    <string name="AMSTERDAM">AMSTERDAM</string>
+    <string name="OSLO">OSLO</string>
+    <string name="ROMA">ROME</string>
+    <string name="BERLIN">BERLIN</string>
+    <string name="ATENAS">ATHENS</string>
+    <string name="VIENA">VIENNA</string>
+    <string name="BERNA">BERN</string>
+    <string name="DUBLIN">DUBLIN</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    tools:context=".JuegoDeAciertosActivity"
+    >
+
+    <Button
+        android:id="@+id/buttonVolverPrimos4"
+        style="@style/botones_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:onClick="cerrarActivity"
+        app:layout_constraintBottom_toBottomOf="@+id/btnComrpobar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnComrpobar" />
+
+    <TextView
+        android:id="@+id/textViewPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/pais"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragmentsuperior"
+        android:name="com.example.practica_4.fragment.PaisesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPais"
+        tools:layout="@layout/fragment_paises"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <fragment
+        android:id="@+id/fragmentinferior"
+        android:name="com.example.practica_4.fragment.CapitalesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCapital"
+        tools:layout="@layout/fragment_capitales"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <TextView
+        android:id="@+id/textViewCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/capital"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentsuperior"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnComrpobar"
+        style="@style/botones"
+        android:text="@string/BotonComprobar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentinferior"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <FrameLayout
+        android:id="@+id/fragmentaciertoerror"
+        android:layout_width="136dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

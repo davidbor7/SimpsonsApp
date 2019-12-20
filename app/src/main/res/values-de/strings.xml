@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App</string>
+    <string name="Primos">PREMIUM NUMMERN</string>
+    <string name="Capitales">WELTKAPITAL</string>
+    <string name="Springfield">Springfield</string>
+    <string name="Personajes">ZEICHEN</string>
+    <string name="TituloPrimos">PREMIUM NUMMERN</string>
+    <string name="CabeceraPrimos">IST ES EINE PREMIUM-NUMMER?</string>
+    <string name="BotonComprobar">PRÜFEN</string>
+    <string name="BotonVolver">ZURÜCK</string>
+    <string name="imagen">Imagen</string>
+    <string name="IntroduceNumero">NUMMER</string>
+    <string name="bart">BART</string>
+    <string name="homer">HOMER</string>
+    <string name="lisa">LISA</string>
+    <string name="marge">MARGE</string>
+    <string name="pais">LAND</string>
+    <string name="capital">WELTKAPITAL</string>
+    <string name="comprobar">BERECHNEN</string>
+
+    //----PAÍSES--------
+    <string name="ESPANA">SPANIEN</string>
+    <string name="PORTUGAL">PORTUGAL</string>
+    <string name="FRANCIA">FRANKREICH</string>
+    <string name="REINOUNIDO">VEREINIGTES KÖNIGREICH</string>
+    <string name="PAISESBAJOS">NIEDERLANDE</string>
+    <string name="NORUEGA">NORWEGEN</string>
+    <string name="ITALIA">ITALIEN</string>
+    <string name="ALEMANIA">DEUTSCHLAND</string>
+    <string name="GRECIA">GRIECHENLAND</string>
+    <string name="AUSTRIA">ÖSTERREICH</string>
+    <string name="SUIZA">SCHWEIZ</string>
+    <string name="IRLANDA">IRLAND</string>
+    //----CAPITALES--------
+    <string name="MADRID">MADRID</string>
+    <string name="LISBOA">LISSAABON</string>
+    <string name="PARIS">PARIS</string>
+    <string name="LONDRES">LONDON</string>
+    <string name="AMSTERDAM">AMSTERDAM</string>
+    <string name="OSLO">OSLO</string>
+    <string name="ROMA">ROM</string>
+    <string name="BERLIN">BERLIN</string>
+    <string name="ATENAS">ATHEN</string>
+    <string name="VIENA">WIEN</string>
+    <string name="BERNA">BERN</string>
+    <string name="DUBLIN">DUBLIN</string>
+</resources>

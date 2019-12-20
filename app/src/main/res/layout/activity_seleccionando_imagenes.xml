@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SeleccionandoImagenesActivity">
+
+    <FrameLayout
+        android:id="@+id/containerFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_weight="0.5"
+        android:background="@android:color/holo_green_light">
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonHomer"
+                style="@style/botones_seleccionandoImagenes"
+                android:layout_weight="1"
+                android:onClick="cargarImagenHomer"
+                android:text="@string/homer" />
+
+            <Button
+                android:id="@+id/buttonMarge"
+                style="@style/botones_seleccionandoImagenes"
+                android:layout_weight="1"
+                android:onClick="cargarImagenMarge"
+                android:text="@string/marge" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonLisa"
+                style="@style/botones_seleccionandoImagenes"
+                android:layout_weight="1"
+                android:onClick="cargarImagenLisa"
+                android:text="@string/lisa" />
+
+            <Button
+                android:id="@+id/buttonBart"
+                style="@style/botones_seleccionandoImagenes"
+                android:layout_weight="1"
+                android:onClick="cargarImagenBart"
+                android:text="@string/bart" />
+        </TableRow>
+
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.5"
+        android:background="@android:color/holo_green_light">
+
+        <Button
+            android:id="@+id/buttonVolverDesplazandoImagenes"
+            style="@style/botones_volver"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:onClick="cerrarActivity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

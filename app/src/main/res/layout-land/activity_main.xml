@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewSimpsons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/familiasimpsons" />
+
+    <ImageView
+        android:id="@+id/imageViewRotulo"
+        android:layout_width="221dp"
+        android:layout_height="105dp"
+        android:contentDescription="@string/imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simpsonslogocabecera" />
+
+    <Button
+        android:id="@+id/btnPrimos"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:drawableEnd="@drawable/numbers"
+        android:onClick="abrirActivityPrimos"
+        android:text="@string/Primos"
+        app:layout_constraintBottom_toTopOf="@+id/btnSpringfield"
+        app:layout_constraintEnd_toStartOf="@+id/btnCapitales"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/botones"/>
+
+    <Button
+        android:id="@+id/btnCapitales"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:drawableEnd="@android:drawable/ic_menu_mylocation"
+        android:text="@string/Capitales"
+        app:layout_constraintBottom_toTopOf="@+id/btnPersonajes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPrimos"
+        app:layout_constraintTop_toTopOf="@+id/btnPrimos"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="abrirActivityJuegoDeAciertos"
+        style="@style/botones"/>
+
+    <Button
+        android:id="@+id/btnSpringfield"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:drawableEnd="@drawable/homesimpsons"
+        android:text="@string/Springfield"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPersonajes"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="abrirActivityDesplazandoImagenes"
+        style="@style/botones"/>
+
+    <Button
+        android:id="@+id/btnPersonajes"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:drawableEnd="@drawable/simpsonslogo"
+        android:text="@string/Personajes"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSpringfield"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnSpringfield"
+        app:layout_constraintTop_toTopOf="@+id/btnSpringfield"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="abrirActivitySeleccionandoImagenes"
+        style="@style/botones"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="Primos">Num. Primos</string>
+    <string name="Capitales">Capitales</string>
+    <string name="Springfield">Springfield</string>
+    <string name="Personajes">Personajes</string>
+    <string name="TituloPrimos">Números Primos</string>
+    <string name="CabeceraPrimos">¿ES UN NÚMERO PRIMO?</string>
+    <string name="BotonComprobar">COMPROBAR</string>
+    <string name="BotonVolver">VOLVER</string>
+    <string name="imagen">Imagen</string>
+    <string name="IntroduceNumero">NÚMERO</string>
+    <string name="bart">BART</string>
+    <string name="homer">HOMER</string>
+    <string name="lisa">LISA</string>
+    <string name="marge">MARGE</string>
+    <string name="pais">PAÍS</string>
+    <string name="capital">CAPITAL</string>
+    <string name="comprobar">CALCULAR</string>
+
+    //----PAÍSES--------
+    <string name="ESPANA">ESPAÑA</string>
+    <string name="PORTUGAL">PORTUGAL</string>
+    <string name="FRANCIA">FRANCIA</string>
+    <string name="REINOUNIDO">REINO UNIDO</string>
+    <string name="PAISESBAJOS">PAÍSES BAJOS</string>
+    <string name="NORUEGA">NORUEGA</string>
+    <string name="ITALIA">ITALIA</string>
+    <string name="ALEMANIA">ALEMANIA</string>
+    <string name="GRECIA">GRECIA</string>
+    <string name="AUSTRIA">AUSTRIA</string>
+    <string name="SUIZA">SUIZA</string>
+    <string name="IRLANDA">IRLANDA</string>
+    //----CAPITALES--------
+    <string name="MADRID">MADRID</string>
+    <string name="LISBOA">LISBOA</string>
+    <string name="PARIS">PARÍS</string>
+    <string name="LONDRES">LONDRES</string>
+    <string name="AMSTERDAM">AMSTERDAM</string>
+    <string name="OSLO">OSLO</string>
+    <string name="ROMA">ROMA</string>
+    <string name="BERLIN">BERLÍN</string>
+    <string name="ATENAS">ATENAS</string>
+    <string name="VIENA">VIENA</string>
+    <string name="BERNA">BERNA</string>
+    <string name="DUBLIN">DUBLÍN</string>
+
+</resources>
