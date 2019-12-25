@@ -2,7 +2,6 @@ package com.example.practica_4;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;

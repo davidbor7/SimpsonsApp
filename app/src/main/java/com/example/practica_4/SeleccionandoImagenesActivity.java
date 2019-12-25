@@ -1,10 +1,8 @@
 package com.example.practica_4;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
-
 import com.example.practica_4.fragment.BartFragment;
 import com.example.practica_4.fragment.HomerFragment;
 import com.example.practica_4.fragment.LisaFragment;

@@ -2,10 +2,8 @@ package com.example.practica_4;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
 import android.os.Bundle;
 import android.view.View;
-
 import com.example.practica_4.adapater.ViewPagerDesplazandoImagenes;
 
 public class DesplazandoImagenesActivity extends AppCompatActivity {
